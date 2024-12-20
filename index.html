@@ -16,9 +16,14 @@
 
     <title>Teton</title>
   </head>
-  <body>
+  <body class="overflow-hidden">
     <div
-      class="absolute inset-0 -z-10 h-fit w-full bg-[white] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
+      class="z-10 h-screen w-full flex justify-center items-center bg-white fixed top-0 loading-wrapper"
+    >
+      <div class="loader"></div>
+    </div>
+    <div
+      class="absolute inset-0 -z-10 h-fit w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
     >
       <div class="w-11/12 lg:w-10/12 mx-auto">
         <header class="mt-6 md:mt-8 min-h-screen">
