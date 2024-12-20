@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link rel="shortcut icon" href="assets/imgs/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Teton</title>
+  </head>
+  <body>
+    <div
+      class="absolute inset-0 -z-10 h-fit w-full bg-[white] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
+    >
+      <div class="w-11/12 lg:w-10/12 mx-auto">
+        <header class="mt-6 md:mt-8 min-h-screen">
+          <nav class="_data flex justify-between items-center w-full">
+            <h1 class="text-4xl cursor-pointer font-semibold md:text-5xl">
+              Teton
+            </h1>
+
+            <div
+              class="absolute top-0 left-[-100%] w-full h-[60vh] flex flex-col justify-center items-center glass duration-300 md:left-0 md:relative md:flex-row md:shadow-none md:bg-transparent md:h-auto md:w-[60%] md:justify-between"
+              id="nav-bar"
+            >
+              <ul
+                class="flex flex-col gap-5 text-center md:flex-row md:gap-8 text-white md:text-inherit"
+              >
+                <li class="links">Home</li>
+                <li class="links">About</li>
+                <li class="links">Testimonials</li>
+                <li class="links">Blogs</li>
+              </ul>
+
+              <div class="flex gap-4 mt-16 md:mt-0 text-white md:text-inherit">
+                <button
+                  class="links hover:bg-[#272E5C] hover:shadow-lg hover:text-white p-1 px-6 md:px-6 text-lg font-medium duration-300"
+                >
+                  Offer
+                </button>
+                <button
+                  class="links bg-[#272E5C] text-white p-1 px-6 md:px-6 text-lg font-medium duration-300 hover:bg-transparent hover:shadow-none hover:text-black shadow-lg"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+
+            <div class="text-3xl font-bold z-10 cursor-pointer md:hidden">
+              <i class="ri-menu-4-fill" id="menu"></i>
+            </div>
+          </nav>
+
+          <div
+            class="mt-12 text-[#040821] w-full flex flex-col justify-between items-center sm:flex sm:mt-24 sm:justify-center md:flex-row md:justify-between"
+          >
+            <div class="left_data md:w-1/2">
+              <p class="font-medium md:text-lg">
+                Explore the World with Confidence and
+              </p>
+              <h1
+                class="text-7xl font-semibold md:text-8xl lg:text-9xl text-[#040821]"
+              >
+                Comfort
+              </h1>
+
+              <p class="font-medium my-7">
+                At Teton, we believe that every journey is an opportunity for
+                adventure and discovery. Our mission is to equip you with the
+                perfect travel companion – a backpack that not only carries your
+                essentials but also enhances your travel experience.
+              </p>
+
+              <div
+                class="flex flex-wrap justify-center items-center gap-4 my-6 sm:justify-start sm:items-start md:mt-0"
+              >
+                <button
+                  class="bg-[#272E5C] text-white py-3 px-10 md:px-9 text-lg font-medium duration-300 hover:bg-transparent hover:shadow-none hover:text-black shadow-lg rounded-md md:w-40"
+                >
+                  Buy Now
+                </button>
+                <button
+                  class="hover:bg-[#272E5C] hover:shadow-xl hover:text-white p-3 px-6 md:px-6 text-lg font-medium rounded-md duration-300"
+                >
+                  <i class="ri-play-fill font-bold text-2xl"></i>
+
+                  Get Started
+                </button>
+              </div>
+            </div>
+
+            <div class="right_data relative">
+              <div
+                class="flex justify-center items-center rounded-full bg-[#404163] p-4 min-h-76 min-w-76 sm:min-h-80 sm:min-w-80 md:min-w-96 md:min-h-96 lg:w-[34rem] lg:h-[34rem]"
+              >
+                <div
+                  class="min-h-60 min-w-60 sm:min-h-76 sm:min-w-76 md:min-h-72 md:min-w-72 lg:w-[28rem] lg:h-[28rem] w-auto h-auto rounded-full bg-[#FAE579]"
+                ></div>
+                <img
+                  src="assets/imgs/head-img.png"
+                  alt=""
+                  class="absolute scale-[1.1] lg:scale-[1.188]"
+                />
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div
+          class="scale_data flex flex-col w-full gap-9 justify-center items-center mt-12 text-center md:flex-row md:text-start md:justify-start md:items-start rounded-lg shadow-lg bg-[#404165] px-9 py-10 md:px-20 md:py-14 text-[#fffcee]"
+        >
+          <h1 class="text-3xl font-medium lg:text-6xl">
+            What Does TETON Do To You?
+          </h1>
+
+          <div
+            class="flex flex-col justify-between gap-10 items-center md:w-[69%] lg:flex-row lg:justify-between"
+          >
+            <p class="my-3 md:my-7 sm:font-medium lg:w-[80%]">
+              TETON Sports began as an idea that no matter the budget, everyone
+              should be able to get outdoors and enjoy life. Our company exists
+              to help people of all ages.
+            </p>
+
+            <div>
+              <div
+                class="h-16 w-16 rounded-full cursor-pointer flex justify-center items-center bg-[#FBE679] text-[#404165] text-4xl"
+              >
+                <i class="ri-arrow-right-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <main class="mt-24">
+          <section
+            class="left_data text-[#404165] min-h-screen w-full lg:flex justify-between items-center lg:items-start"
+          >
+            <div class="lg:w-1/2">
+              <div class="relative min-w-fit">
+                <div class="relative h-fit">
+                  <div
+                    class="h-36 w-36 cursor-pointer rounded-full bg-[#3F4064] flex justify-center items-center"
+                  >
+                    <div class="h-28 w-28 rounded-full bg-[#F8E377]"></div>
+                  </div>
+
+                  <div class="absolute top-8 left-0">
+                    <img src="assets/imgs/ourvalues.png" alt="" />
+                  </div>
+
+                  <!-- <div
+                    class="w-24 h-24 rounded-full cursor-pointer absolute top-52 right-[20%]"
+                  >
+                    <img
+                      src="assets/imgs/logo.png"
+                      alt=""
+                      class="object-cover w-24 h-24 rounded-full border border-black"
+                    />
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:w-1/2 mt-56 sm:mt-96 lg:mt-0 lg:">
+              <h1
+                class="text-5xl font-semibold text-center mb-5 lg:text-start lg:text-7xl lg:mb-6"
+              >
+                Our Values
+              </h1>
+
+              <p class="my-5 lg:my-8 lg:text-lg lg:font-medium">
+                In life, there is no going backwards. Moving forward is how we
+                evolve, overcome challenges, and improve to make a positive
+                impact on the world. It is also the inspiration behind our core
+                values.
+              </p>
+
+              <div class="flex flex-col gap-5">
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>The TETON Sports lifestyle is deeply rooted in freedom.</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>TETON believe in always giving its best</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>People can trust without a moment’s hesitation</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>When we say the outdoors is for everyone, we mean it.</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>TETON Sports Lifetime Warranty</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <div>✔</div>
+
+                  <p>Amazing customer service team 24/7.</p>
+                </div>
+              </div>
+
+              <button
+                class="bg-[#272E5C] text-white py-3 px-10 md:px-9 text-lg font-medium duration-300 hover:bg-transparent hover:shadow-none hover:text-black shadow-lg rounded-md md:w-40 mt-12"
+              >
+                Buy Now
+              </button>
+            </div>
+          </section>
+
+          <section class="right_data my-20">
+            <div class="text-center my-12">
+              <h1 class="text-4xl font-bold my-6">Feature Products</h1>
+
+              <p class="font-medium lg:w-1/2 mx-auto">
+                We believe the outdoors is there for everyone to enjoy. Whether
+                you're blazing a new trail or just want to add a little
+                fresh-air time to your hectic schedule, the outside world is
+                waiting for you. We make the gear that will get you there.
+              </p>
+            </div>
+
+            <div class="swiper first-swiper">
+              <div class="swiper-wrapper my-6">
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/head-img.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-1.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">OASIS 18L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$55.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-2.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-3.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/head-img.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-2.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-3.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">NUMA 30L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$50.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+
+                <div
+                  class="swiper-slide my-6 flex flex-col justify-center items-center"
+                >
+                  <div class="border p-3 rounded-2xl h-96">
+                    <img src="assets/imgs/img-1.png" alt="" class="h-full" />
+                  </div>
+
+                  <div class="w-full flex justify-between items-center mt-5">
+                    <h1 class="text-2xl font-bold text-[#272E5C]">OASIS 18L</h1>
+                    <h1 class="text-2xl font-bold text-red-500">$55.00</h1>
+                  </div>
+
+                  <button
+                    class="bg-[#272E5C] text-white py-3 px-16 md:px-9 text-lg font-medium duration-300 shadow-lg rounded-md w-full mt-6"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+
+              <div class="swiper-pagination mt-12"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </section>
+
+          <section class="left_data min-h-screen my-12 md:mt-56">
+            <h1 class="text-4xl sm:text-5xl mb-12 font-semibold text-center">
+              TESTIMONIALS
+            </h1>
+
+            <div class="swiper second-swiper">
+              <div class="swiper-wrapper my-12">
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    And residence for met the estimable disposing. Mean if he
+                    they been no hold mr. Is at much do made took held help.
+                    Feet you off its like six.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/d25e0db1-0dab-4d1e-ab6a-3bc18b853c51.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">Dayat Santoso</h1>
+                      <p>Business Manager</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    Warmly little before cousin success entire men set. Blessing
+                    it ladyship on sensible it is Equal an would is found seems
+                    of. Worse linen an of civil jokes leave offer.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/john.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full object-cover"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">John Doe</h1>
+                      <p>CEO. PT. Indomine</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    It more shed went up is roof if loud case. Delay music in
+                    lived noise an. Beyond genius really enough passed is up.
+                    Equal an would is found seems of.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/mas roy.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full object-cover"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">Mas Roy</h1>
+                      <p>Business Developer</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    And residence for met the estimable disposing. Mean if he
+                    they been no hold mr. Is at much do made took held help.
+                    Feet you off its like six.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/d25e0db1-0dab-4d1e-ab6a-3bc18b853c51.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">Dayat Santoso</h1>
+                      <p>Business Manager</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    Warmly little before cousin success entire men set. Blessing
+                    it ladyship on sensible it is Equal an would is found seems
+                    of. Worse linen an of civil jokes leave offer.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/john.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full object-cover"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">John Doe</h1>
+                      <p>CEO. PT. Indomine</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide p-5 border">
+                  <p class="mb-7 font-medium">
+                    It more shed went up is roof if loud case. Delay music in
+                    lived noise an. Beyond genius really enough passed is up.
+                    Equal an would is found seems of.
+                  </p>
+
+                  <div class="flex flex-row gap-5">
+                    <div>
+                      <img
+                        src="assets/imgs/mas roy.jpg"
+                        alt=""
+                        class="h-12 w-12 rounded-full object-cover"
+                      />
+                    </div>
+
+                    <div>
+                      <h1 class="font-semibold">Mas Roy</h1>
+                      <p>Business Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination" id="second-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+            </div>
+          </section>
+
+          <section
+            class="right_data my-40 border-2 shadow-xl py-5 px-3 sm:px-7 sm:py-12 md:px-10 md:py-20 md:flex justify-between items-center w-full gap-10"
+          >
+            <div class="md:w-1/2">
+              <h1 class="text-4xl text-center md:text-start font-semibold mb-5">
+                Join our newsletter for the latest updates
+              </h1>
+
+              <p class="font-medium text-center md:text-start my-10">
+                Join our newsletter for the latest updates about our latest
+                product. Have questions or need assistance? Contact our friendly
+                customer support team.
+              </p>
+            </div>
+
+            <div>
+              <h1 class="text-3xl font-semibold">Get Started for Free</h1>
+
+              <form action="">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="my-5 w-full border rounded-md p-4 py-3 text-lg outline-none"
+                />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="mb-5 w-full border rounded-md p-4 py-3 text-lg outline-none"
+                />
+
+                <button
+                  class="bg-[#272E5C] text-white py-3 px-10 md:px-9 text-lg font-medium duration-300 hover:bg-transparent hover:shadow-none hover:text-black shadow-lg rounded-md w-full"
+                  type="submit"
+                >
+                  Get Started
+                </button>
+              </form>
+            </div>
+          </section>
+        </main>
+
+        <footer
+          class="_data flex flex-col justify-center items-center text-center text-[#272E5C] md:text-start"
+        >
+          <div class="md:flex flex-row justify-between items-start">
+            <div class="md:w-1/4">
+              <h1 class="text-5xl cursor-pointer font-semibold md:text-6xl">
+                Teton
+              </h1>
+
+              <p class="my-5">
+                We help customers to find the best product near them, not
+                wasting time searching for the best one.
+              </p>
+
+              <div
+                class="flex cursor-pointer my-5 justify-center items-center gap-4 md:justify-start"
+              >
+                <span
+                  class="h-7 w-7 flex justify-center items-center text-lg bg-red-100 text-[#272E5C] rounded-md"
+                >
+                  <i class="ri-facebook-fill"></i>
+                </span>
+
+                <span
+                  class="h-7 w-7 flex justify-center items-center text-lg bg-red-100 text-[#272E5C] rounded-md"
+                >
+                  <i class="ri-instagram-fill"></i>
+                </span>
+
+                <span
+                  class="h-7 w-7 flex justify-center items-center text-lg bg-red-100 text-[#272E5C] rounded-md"
+                >
+                  <i class="ri-twitter-x-line"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <h1 class="mb-5 text-2xl font-bold">Products</h1>
+
+              <ul class="flex flex-col gap-2">
+                <li>New</li>
+                <li>Upcoming</li>
+                <li>Man collection</li>
+                <li>On sale</li>
+                <li>Live Demo</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1 class="mb-5 text-2xl font-bold">Resources</h1>
+
+              <ul class="flex flex-col gap-2">
+                <li>Instagram post</li>
+                <li>Blog</li>
+                <li>Live Demo</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1 class="mb-5 text-2xl font-bold">Contact us</h1>
+
+              <ul class="flex flex-col gap-2">
+                <li>Live chat</li>
+                <li>Mail us</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="w-full text-center flex justify-center gap-1 items-center py-5"
+          >
+            <p>Copyright © 2024 Dev Nerd</p>
+            <p>
+              Created by
+              <span class="font-bold text-[#E55E11] cursor-pointer"
+                ><a href="https://t.me/devnerdguy">Roobi..</a></span
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

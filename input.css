@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+body {
+  @apply overflow-x-hidden;
+}
+
+.glass {
+  background: rgba(39, 46, 92, 0.878);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+li {
+  @apply font-medium cursor-pointer;
+}
+
+.links,
+.nav-icon,
+li {
+  @apply cursor-pointer duration-300;
+}
+.nav-icon:hover,
+.links:hover {
+  @apply translate-x-2 md:translate-y-2 md:translate-x-0;
+}
+
+li:hover {
+  @apply translate-x-2;
+}
+
+.white {
+  @apply text-white;
+}
+
+.first-swiper .swiper-pagination .swiper-pagination-bullet {
+  @apply bg-[#404165] w-2 h-2 md:w-3 md:h-3;
+}
+
+.second-swiper .swiper-pagination .swiper-pagination-bullet {
+  @apply bg-[#404165] w-8 sm:w-20 h-3  rounded-md;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply text-[#404165];
+}
+
+.swiper-slide {
+  @apply text-gray-400;
+}
+.swiper-slide-active {
+  @apply text-blue-950;
+}
